@@ -359,13 +359,13 @@ const App = () => {
               </h3>
               <div className="grid md:grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-3xl text-white">75%</div>
+                  <div className="text-3xl text-white">55%</div>
                   <div className="text-gray-400">
                     Liquidity (Locked like my job prospects)
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl text-white">10%</div>
+                  <div className="text-3xl text-white">30%</div>
                   <div className="text-gray-400">
                     Community (Fellow broke bots)
                   </div>
