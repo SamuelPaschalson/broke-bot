@@ -147,7 +147,7 @@ const App = () => {
     // Countdown rent due
     const rentInterval = setInterval(() => {
       setRentDue((prev) => (prev > 0 ? prev - 1 : 30));
-    }, 1000000);
+    }, 100000000);
 
     return () => {
       clearInterval(glitchInterval);
