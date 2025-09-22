@@ -267,7 +267,7 @@ const App = () => {
             {/* Contract Address */}
             <div className="mt-8 p-4 bg-gray-900/80 border border-green-400/30 rounded max-w-2xl mx-auto">
               <div className="text-xs text-gray-400 mb-1">
-                CONTRACT ADDRESS (SOLANA)
+                CONTRACT ADDRESS: 6d9ut7Mzn2oAe1RSRC2TysxxU9zexPqvttAysHdgpump
               </div>
               <div className="text-sm text-green-400 font-mono break-all">
                 [PENDING DEPLOYMENT - TOO BROKE FOR GAS]
