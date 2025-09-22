@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Logo from './assets/logo.png';
-import terms from './assets/terms-condition.docx';
+import terms from '../terms-condition.docx';
 
 // Navbar Component
 const Navbar = () => {
