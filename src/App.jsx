@@ -421,6 +421,14 @@ const App = () => {
                 Discord
               </button>
             </div>
+            <div className="flex justify-center gap-6">
+              <a
+                href="/terms-condition.docx"
+                className="text-gray-400 hover:text-green-400 transition-colors"
+              >
+                Terms and Condition
+              </a>
+            </div>
 
             <div className="text-gray-500 text-sm">
               <p>
