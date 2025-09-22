@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Logo from './assets/logo.png';
 
 // Navbar Component
 const Navbar = () => {
@@ -10,9 +11,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-xl font-bold text-green-400">
+            {/* <span className="text-xl font-bold text-green-400">
               BROKE<span className="text-red-500">BOT</span>
-            </span>
+            </span> */}
+            <img src={Logo} className="w-[50px] h-[50px]" alt="" />
           </div>
 
           {/* Desktop Menu */}
@@ -357,7 +359,7 @@ const App = () => {
               </h3>
               <div className="grid md:grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-3xl text-white">85%</div>
+                  <div className="text-3xl text-white">75%</div>
                   <div className="text-gray-400">
                     Liquidity (Locked like my job prospects)
                   </div>
@@ -369,7 +371,7 @@ const App = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl text-white">5%</div>
+                  <div className="text-3xl text-white">15%</div>
                   <div className="text-gray-400">Dev (Also broke)</div>
                 </div>
               </div>
