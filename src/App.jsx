@@ -407,15 +407,18 @@ const App = () => {
         <footer className="py-12 px-8 border-t border-gray-800">
           <div className="max-w-6xl mx-auto text-center space-y-4">
             <div className="flex justify-center gap-6">
-              <button className="text-gray-400 hover:text-green-400 transition-colors">
+              <a
+                href="https://x.com/brokebot01"
+                className="text-gray-400 hover:text-green-400 transition-colors"
+              >
                 Twitter
-              </button>
-              <button
-                onClick={() => alert('Links coming soon')}
+              </a>
+              <a
+                href="https://t.me/BrokebotCoin"
                 className="text-gray-400 hover:text-green-400 transition-colors"
               >
                 Telegram
-              </button>
+              </a>
               <button
                 onClick={() => alert('Links coming soon')}
                 className="text-gray-400 hover:text-green-400 transition-colors"
