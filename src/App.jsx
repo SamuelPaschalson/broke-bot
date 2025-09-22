@@ -141,7 +141,7 @@ const App = () => {
     const jobInterval = setInterval(() => {
       setJobApplications((prev) => prev + 1);
       setRejections((prev) => prev + 1);
-    }, 3000);
+    }, 30000);
 
     // Countdown rent due
     const rentInterval = setInterval(() => {
