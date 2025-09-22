@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Logo from './assets/logo.png';
+import terms from './assets/terms-conditions.docx';
 
 // Navbar Component
 const Navbar = () => {
@@ -428,7 +429,7 @@ const App = () => {
             </div>
             <div className="flex justify-center gap-6">
               <a
-                href="/terms-condition.docx"
+                href={terms}
                 className="text-gray-400 hover:text-green-400 transition-colors"
               >
                 Terms and Condition
